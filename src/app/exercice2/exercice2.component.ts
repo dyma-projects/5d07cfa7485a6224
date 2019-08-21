@@ -16,7 +16,7 @@ export class Exercice2Component implements OnInit {
   ngOnInit() {}
 
 
-  displayData(data: string) {
+  displayData() {
     this.valeur = this.dataEntryInput.nativeElement.value;
   }
 
